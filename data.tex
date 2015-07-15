@@ -1,0 +1,218 @@
+\documentclass[8]{report}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{booktabs}
+\usepackage{subfig}
+\usepackage{caption}
+\usepackage{rotating}
+\usepackage{adjustbox}
+\usepackage{threeparttable}
+\usepackage{array}
+
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\newcolumntype{C}{@{\extracolsep{1cm}}c@{\extracolsep{0pt}}}%
+
+
+\begin{document}
+\begin{table}[ht]
+
+
+
+\begin{threeparttable}
+\ TimeTest Results: \\
+\begin{tabular}{l*{5}{c}}
+   &\multicolumn{1}{c}{}  &\multicolumn{1}{c}{}   &\multicolumn{1}{c}{} &\multicolumn{1}{c}{}  &\multicolumn{1}{c}{}   \\
+\hline\hline
+
+
+     \multicolumn{1}{c}{ADT}  &\multicolumn{1}{c}{File 1}   &\multicolumn{1}{c}{File  2} &\multicolumn{1}{c}{File 3}  &\multicolumn{1}{c}{File 4}   \\
+
+
+\hline
+
+
+\    BST   &     over 5min  &    over 5min  &   over  5min  &  0.416   \\
+                       
+
+\       AVL  Tree&      0.299  &   0.258  &   0.250  &   0.467              \\
+                  
+\       Splay Tree&     0.170   &  0.135  &  0.121  &  0.366         \\
+     
+ \       Bin. Heap    &   0.109  &    0.168  &   0.199 & 0.183             \\
+ 
+ \    Skip List    &     0.257  &    0.206 &   0.217   &  0.416   \\
+ 
+ \    BTree     &     0.242  &    0.317  &   0.231   &  0.525   \\
+ 
+\hline 
+
+\end{tabular}
+\      \\
+
+\ BTree Table:\\
+\begin{tabular}{l*{5}{c}}
+   &\multicolumn{1}{c}{}  &\multicolumn{1}{c}{}   &\multicolumn{1}{c}{} &\multicolumn{1}{c}{}  &\multicolumn{1}{c}{}   \\
+\hline\hline
+
+
+     \multicolumn{1}{c}{File }  &\multicolumn{1}{c}{Combo 1}   &\multicolumn{1}{c}{Combo  2} &\multicolumn{1}{c}{Combo 3}  &\multicolumn{1}{c}{Combo 4}   \\
+
+
+\hline
+
+
+\    1  &     0.242  &   0.207   &   0.673  &  0.369   \\
+                       
+
+\       2&      0.317  &   0.288 &   0.981  &   0.412              \\
+                  
+\       3&     0.231   &  0.268  &  0.681  &  0.411         \\
+     
+ \       4  &   0.525  &    0.330  &   0.992 & 0.471             \\
+ 
+
+\hline 
+
+\end{tabular}
+
+\begin{tablenotes} 
+\setlength\labelsep{0pt}
+\footnotesize
+\item \textit{Notes:} \\
+ Combo 1: M = 3, L = 1 \\
+ Combo 2: M = 3, L = 200 \\
+  Combo 3: M = 1000, L = 2 \\
+ Combo 4: M = 1000, L = 200 \\
+
+
+
+\end{tablenotes}
+
+\ Separate Chaining Hash Table (by load factor) \\
+\begin{tabular}{l*{6}{c}}
+\   &\multicolumn{1}{c}{}  &\multicolumn{1}{c}{}   &\multicolumn{1}{c}{} &\multicolumn{1}{c}{}  &\multicolumn{1}{c}{}   \\
+\hline\hline
+
+
+     \multicolumn{1}{c}{File }  &\multicolumn{1}{c}{0.5}   &\multicolumn{1}{c}{1} &\multicolumn{1}{c}{10}  &\multicolumn{1}{c}{100} &\multicolumn{1}{c}{1000}   \\
+
+
+\hline
+
+
+\    1  &     0.199  &   0.177   &   0.178  &  0.463   &  3.454   \\
+                       
+
+\       2&      0.168 &   0.143 &   0.154  &   0.359  &  2.861             \\
+                  
+\       3&     0.160   &  0.153  &  0.142  &  0.278   & 1.57       \\
+     
+ \       4  &   0.230  &    0.220  &   0.257 & 0.396   & 2.127           \\
+ 
+
+\hline 
+
+\end{tabular}
+
+\    \\
+
+
+\ Quadratic Probing Hash Table (by load factor)  \\
+\begin{tabular}{l*{6}{c}}
+ 
+   &\multicolumn{1}{c}{}  &\multicolumn{1}{c}{}   &\multicolumn{1}{c}{} &\multicolumn{1}{c}{}  &\multicolumn{1}{c}{}   \\
+\hline\hline
+
+
+     \multicolumn{1}{c}{File }  &\multicolumn{1}{c}{0.1}   &\multicolumn{1}{c}{0.25} &\multicolumn{1}{c}{0.5}  &\multicolumn{1}{c}{1} &\multicolumn{1}{c}{2}   \\
+
+
+\hline
+
+
+\    1  &     0.109  &   0.115   &   0.116  &  0.132  &  0.149   \\
+                       
+
+\       2&      0.106 &   0.109 &   0.101  &   0.120  &  0.121             \\
+                  
+\       3&     0.108   &  0.113  &  0.115  &  0.117   & 0.125       \\
+     
+ \       4  &   0.126  &    0.127  &   0.130 & 0.143   & 0.155           \\
+ 
+
+\hline 
+
+\end{tabular}
+
+\    \\
+
+\ Quadratic Pointer Probing Hash Table (by load factor) \\
+\begin{tabular}{l*{6}{c}}
+   &\multicolumn{1}{c}{}  &\multicolumn{1}{c}{}   &\multicolumn{1}{c}{} &\multicolumn{1}{c}{}  &\multicolumn{1}{c}{}   \\
+\hline\hline
+
+
+     \multicolumn{1}{c}{File }  &\multicolumn{1}{c}{0.1}   &\multicolumn{1}{c}{0.25} &\multicolumn{1}{c}{0.5}  &\multicolumn{1}{c}{1} &\multicolumn{1}{c}{2}   \\
+
+
+\hline
+
+
+\    1  &     0.183  &   0.165   &   0.156  &  0.178  &  0.202   \\
+                       
+
+\       2&      0.148 &   0.141 &   0.145  &   0.145  &  0.147             \\
+                  
+\       3&     0.143   &  0.135  &  0.129  &  0.138   & 0.160       \\
+     
+ \       4  &   0.185  &    0.167  &   0.176 & 0.189   & 0.208           \\
+ 
+
+\hline 
+
+\end{tabular}
+
+
+
+\end{threeparttable}
+
+
+
+
+
+
+
+
+
+\end{table}
+
+
+
+\end{document} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

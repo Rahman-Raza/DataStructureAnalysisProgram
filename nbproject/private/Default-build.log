@@ -1,0 +1,13 @@
+g++ -Wall -ansi -g -c timetest3.cpp
+In file included from timetest3.cpp:7:
+In file included from ./SkipList.h:45:
+./SkipList.cpp:48:9: warning: explicitly assigning a variable of type 'int' to itself [-Wself-assign]
+      r = r;
+      ~ ^ ~
+1 warning generated.
+g++ -Wall -ansi -g -c BTree.cpp
+g++ -Wall -ansi -g -c BTreeNode.cpp
+g++ -Wall -ansi -g -c InternalNode.cpp
+g++ -Wall -ansi -g -c LeafNode.cpp
+g++ -Wall -ansi -g -o timetest3.out timetest3.o BTree.o BTreeNode.o InternalNode.o LeafNode.o  
+clang: warning: argument unused during compilation: '-ansi'

@@ -1,0 +1,236 @@
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-c
+	timetest3.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-c
+	timetest3.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-c
+	timetest3.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-c
+	timetest3.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-c
+	BTree.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-c
+	BTree.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-c
+	BTree.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-c
+	BTree.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-c
+	BTreeNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-c
+	BTreeNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-c
+	BTreeNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-c
+	BTreeNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-c
+	InternalNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-c
+	InternalNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-c
+	InternalNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-c
+	InternalNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-c
+	LeafNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-c
+	LeafNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-c
+	LeafNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-c
+	LeafNode.cpp
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-o
+	timetest3.out
+	timetest3.o
+	BTree.o
+	BTreeNode.o
+	InternalNode.o
+	LeafNode.o
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/usr/bin/g++
+	-Wall
+	-ansi
+	-g
+	-o
+	timetest3.out
+	timetest3.o
+	BTree.o
+	BTreeNode.o
+	InternalNode.o
+	LeafNode.o
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-o
+	timetest3.out
+	timetest3.o
+	BTree.o
+	BTreeNode.o
+	InternalNode.o
+	LeafNode.o
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	/Users/rahmanraza/Desktop/ecs60/p3
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+	-Wall
+	-ansi
+	-g
+	-o
+	timetest3.out
+	timetest3.o
+	BTree.o
+	BTreeNode.o
+	InternalNode.o
+	LeafNode.o
+
